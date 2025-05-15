@@ -1,0 +1,41 @@
+.container {
+  width: 200px;
+  margin: auto;
+}
+
+#inputBox {
+  border: 2px solid black;
+}
+
+#inputBox:hover {
+  font-size: 15px;
+}
+
+.operator {
+  padding: 7px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 3px;
+}
+
+.operator:hover {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.number {
+  padding: 7px;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 5px;
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.number:hover {
+  font-size: 17px;
+  cursor: pointer;
+}
